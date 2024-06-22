@@ -41,7 +41,14 @@ position: absolute;
     position: absolute;
 }
 
-.main__comtainer-text p {position: absolute;margin-top: 36vh;background-color: #a1a6aa38;text-align: center;color: #ff4e44;}
+.main__comtainer-text p {
+    position: absolute;
+    margin-top: 36vh;
+    background-color: #a1a6aa38;
+    text-align: center;color: #ff4e44;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
 
 @keyframes caret {
 
