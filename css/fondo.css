@@ -1,0 +1,63 @@
+#bgAnimation {
+  position: fixed;
+  width: 103%;
+  height: 100vh;
+  overflow: hidden;
+  margin: -1% 0 0 -3%;
+  background-color: black;
+}
+.colorBox {
+    position: absolute;
+    width: 69px; /* Tamaño de los hexágonos */
+    height: 78px;
+    background-color: #282634; /* Color de los hexágonos */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+@media (min-width: 480px){
+
+#bgAnimation {
+    position: fixed;
+    width: 103%;
+    height: 100vh;
+    overflow: hidden;
+    margin: -1% 0 0 -3%;
+    background-color: black;
+}
+
+.colorBox {
+    position: absolute;
+    width: 69px; /* Tamaño de los hexágonos */
+    height: 78px;
+    background-color: #282634; /* Color de los hexágonos */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+  
+  .colorBox:hover {
+    background: #190403;
+    transition-duration: 0.2s;
+  }
+  
+  .backgroundAmim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #ff4e44;
+    filter: blur(60px);
+    animation: animBack 6s linear infinite;
+  }
+  #root {
+    position: relative;
+  }
+  
+  @keyframes animBack {
+    0% {
+        top: -60px;
+    }
+    100% {
+        top: 120%;
+    }
+  }
+}

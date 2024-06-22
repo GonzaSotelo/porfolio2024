@@ -1,0 +1,41 @@
+
+
+
+
+@media (min-width: 480px){
+
+header {
+    position: fixed;
+    background-color: rgba(44, 44, 44, 0.683);
+    z-index: 100;
+}
+
+.conteiner-menu {
+    position: absolute;
+    color:aqua;
+    height: 2vh;
+}
+
+.header__conteiner-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    color: #a1a6aa;
+    position: absolute;
+}
+header img {
+    max-width: 4vw;
+}
+
+.header__conteiner-nav ul {
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 4vw;
+}
+.header__conteiner-nav li {
+    margin: 1vh;
+}
+
+}
