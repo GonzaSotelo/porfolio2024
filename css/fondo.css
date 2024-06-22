@@ -1,7 +1,7 @@
 #bgAnimation {
   position: fixed;
-  width: 66%;
-  height: 57vh;
+  width: 111%;
+  height: 90%;
   overflow: hidden;
   margin: -6% 0 0 -11%;
   background-color: black;
@@ -16,6 +16,8 @@
 
 @media (min-width: 480px){
 
+
+  /*
 #bgAnimation {
     position: fixed;
     width: 103%;
@@ -27,9 +29,9 @@
 
 .colorBox {
     position: absolute;
-    width: 69px; /* Tamaño de los hexágonos */
+    width: 69px; 
     height: 78px;
-    background-color: #282634; /* Color de los hexágonos */
+    background-color: #282634;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
   
@@ -60,4 +62,6 @@
         top: 120%;
     }
   }
+
+  */
 }
