@@ -2,7 +2,7 @@
         width: 100%;
         height: 100vh;
         z-index: 60;
-        margin-top: 17vh;
+        margin-top: 20vh;
         position: relative;
         background-color: #282634f0;
         display: flex;
@@ -16,8 +16,9 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 3vh;
-    margin-top: 18vh;
     text-align: center;
+    position: absolute;
+    margin-bottom: 72vh;
 }
 
 .container-proyect {
@@ -26,7 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 48% auto;
+    margin: 66% auto;
 }
 .box {
     margin-bottom: 10px;
