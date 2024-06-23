@@ -30,6 +30,11 @@ form {
 
 .field input {
     background-color: #a1a6aa;
+    border: none;
+    height: 3vh;
+    width: 64vw;
+    margin-top: 1vh;
+    border-radius: 2px;
 }
 
 input[type="submit"] {
