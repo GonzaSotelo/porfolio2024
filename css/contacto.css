@@ -17,6 +17,7 @@ form {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    margin-top: 0vh;
 }
 
 .field {
@@ -27,6 +28,7 @@ form {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 4vw;
+    margin-top: 2vh;
 }
 
 .field label {
