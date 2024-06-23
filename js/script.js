@@ -75,3 +75,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     type();  // start the typing effect
 });
+
+
+
+document.querySelector('.conteiner-menu').addEventListener('click', function() {
+    document.getElementById('menu').classList.toggle('show-menu');        });
