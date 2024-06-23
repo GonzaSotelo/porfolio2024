@@ -52,3 +52,8 @@ input[type="submit"] {
     height: 36%;
     background-color: #28263487;
 }
+.lista-cont {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -4vh;
+}
