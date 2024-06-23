@@ -1,125 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Porfolio | Gonzalo Sotelo</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/01dc01c3ab.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/01dc01c3ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('dDGgCZjuUOd7LAfdY')
+  </script>
+  </head>
+  <body>
     <div class="bgAnimation" id="bgAnimation">
-        <div class="backgroundAmim"></div>
+      <div class="backgroundAmim"></div>
     </div>
 
-  
-     <header>
-<div class="header__conteiner-nav">
+    <header>
+      <div class="header__conteiner-nav">
+        <div>
+          <img src="img/logo.png" alt="" />
+        </div>
 
-    <div>
-        <img src="img/logo.png" alt="">
-    </div>
-  
-<div>
-    <nav>
-        <ul id="menu" >
-           <a href="#"> <li> <i class="fa-regular fa-user"></i> Sobre Mi</li></a>
-           <a href="#proyectos"><li><i class="fa-solid fa-code"></i>  Proyectos</li></a> 
-           <a href="#contacto"><li><i class="fa-regular fa-address-book"></i>  Contacto</li></a> 
-        </ul>
-    </nav>
-    <div class="conteiner-menu">
-        <i class="fa-solid fa-bars"></i>
-    </div>
-</div>
-</div>
-   
-
+        <div>
+          <nav>
+            <ul id="menu">
+              <a href="#">
+                <li><i class="fa-regular fa-user"></i> Sobre Mi</li></a
+              >
+              <a href="#proyectos"
+                ><li><i class="fa-solid fa-code"></i> Proyectos</li></a
+              >
+              <a href="#contacto"
+                ><li><i class="fa-regular fa-address-book"></i> Contacto</li></a
+              >
+            </ul>
+          </nav>
+          <div class="conteiner-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main>
-<div>
-    <div class="main__comtainer-text">
-        <h1>Hola<span class="highlight">,</span> yo soy</h1>
-        <h2 id="typing"></h2>
+      <div>
+        <div class="main__comtainer-text">
+          <h1>Hola<span class="highlight">,</span> yo soy</h1>
+          <h2 id="typing"></h2>
 
-        <p>
-            Hola Mundo! tengo 30 años, soy Frontend Developer con 1 año de experiencia
-        </p>
+          <p>
+            Hola Mundo! tengo 30 años, soy Frontend Developer con 1 año de
+            experiencia
+          </p>
 
-        <div class="conteiner_skills">
+          <div class="conteiner_skills">
             <h3>Mis Skils</h3>
             <div class="iconos">
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-html5"></i>
-                    <h5>html</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <h5>css</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-square-js"></i>
-                    <h5>javaScript</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-node"></i>
-                    <h5>node.js</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-node-js"></i>
-                    <h5>express.js</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-node"></i>
-                    <h5>node.js</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-solid fa-database"></i>
-                    <h5>MySQL</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-react"></i>
-                    <h5>React</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-bootstrap"></i>
-                    <h5>Bootstrap</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-github"></i>
-                    <h5>Git</h5>
-                </div>
-                <div class="iconos-leng">
-                    <i class="fa-brands fa-jira"></i>
-                    <h5>Jira</h5>
-                </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-html5"></i>
+                <h5>html</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h5>css</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-square-js"></i>
+                <h5>javaScript</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-node"></i>
+                <h5>node.js</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-node-js"></i>
+                <h5>express.js</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-node"></i>
+                <h5>node.js</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-solid fa-database"></i>
+                <h5>MySQL</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-react"></i>
+                <h5>React</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-bootstrap"></i>
+                <h5>Bootstrap</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-github"></i>
+                <h5>Git</h5>
+              </div>
+              <div class="iconos-leng">
+                <i class="fa-brands fa-jira"></i>
+                <h5>Jira</h5>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    
-</div>
+      <div id="proyectos" class="main__container-proyect">
+        <h2>Mis Proyectos</h2>
+
+        <div class="container-proyect">
+
+         
+            <div class="box">
+              <img src="img/proyectos/full-gamer.png" alt="" />
+            </div>
   
+            <div class="box">
+              <img src="img/proyectos/porfolio2023.png" alt="" />
+            </div>
+            <div class="box">
+              <img src="img/proyectos/full-gamer.png" alt="" />
+            </div>
 
-<div id="proyectos" class="main__container-proyect">
-
-</div>
-
-
-   
+          
+         
 
 
 
 
+        </div>
+      </div>
+
+
+      <div id="contacto" class="main__container-contact">
+
+
+        <form id="form">
+          <div class="field">
+              <label for="user_name">Nombre</label>
+              <input type="text" name="user_name" id="user_name">
+          </div>
+          <div class="field">
+            <label for="user_email">Email</label>
+            <input type="text" name="user_email" id="user_email">
+            <span id="email_error" class="error"></span>
+        </div>
+          <div class="field">
+              <label for="message">Mensaje</label>
+              <input type="text" name="message" id="message">
+          </div>
+
+          <input type="submit" id="button" value="Enviar">
+      </form>
+        
+
+
+      </div>
     </main>
 
-    <footer>
-
-
-    </footer>
-
+    <footer></footer>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

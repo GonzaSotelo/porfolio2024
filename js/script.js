@@ -79,4 +79,52 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 document.querySelector('.conteiner-menu').addEventListener('click', function() {
-    document.getElementById('menu').classList.toggle('show-menu');        });
+    document.getElementById('menu').classList.toggle('show-menu');
+});
+
+// Cerrar el menú cuando se hace clic en un enlace
+document.querySelectorAll('#menu a').forEach(function(link) {
+    link.addEventListener('click', function() {
+        document.getElementById('menu').classList.remove('show-menu');
+    });
+});
+
+
+
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(String(email).toLowerCase());
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const btn = document.getElementById('button');
+
+            document.getElementById('form')
+                .addEventListener('submit', function(event) {
+                    event.preventDefault();
+
+                    const emailField = document.getElementById('user_email');
+                    const email = emailField.value;
+
+                    if (!validateEmail(email)) {
+                        swal("No se pudo enviar!", "En breve me contactare contigo!", "success");;
+
+                        return; // Detiene la ejecución si el correo no es válido
+                    }
+
+                    btn.value = 'Sending...';
+
+                    const serviceID = 'service_3yt7quh';
+                    const templateID = 'template_5zufahy';
+
+                    emailjs.sendForm(serviceID, templateID, this)
+                        .then(() => {
+                            btn.value = 'Send Email';
+                            swal("Enviado!", "En breve me contactare contigo!", "success");;
+                        }, (err) => {
+                            btn.value = 'Send Email';
+                            alert(JSON.stringify(err));
+                        });
+                });
+        });
