@@ -108,7 +108,7 @@ document.querySelectorAll('#menu a').forEach(function(link) {
                     const email = emailField.value;
 
                     if (!validateEmail(email)) {
-                        swal("No se pudo enviar!", "En breve me contactare contigo!", "success");;
+                        swal("No se pudo enviar!", "Revisa los campos!", "error");;
 
                         return; // Detiene la ejecución si el correo no es válido
                     }
