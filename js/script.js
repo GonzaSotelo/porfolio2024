@@ -128,3 +128,23 @@ document.querySelectorAll('#menu a').forEach(function(link) {
                         });
                 });
         });
+
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const boxes = document.querySelectorAll('.box');
+        
+            boxes.forEach(box => {
+                box.addEventListener('mouseenter', () => {
+                    const video = box.querySelector('video');
+                    video.play();
+                });
+        
+                box.addEventListener('mouseleave', () => {
+                    const video = box.querySelector('video');
+                    video.pause();
+                    video.currentTime = 0;
+                });
+            });
+        });
+        
