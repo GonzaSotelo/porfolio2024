@@ -48,11 +48,16 @@ input[type="submit"] {
     height: 3vh;
     width: 26vw;
     margin: 2% auto;
-    background-color: #aea5a5;
+    background-color: #ff4d42;
+    
     border: none;
     border-radius: 5px;
     color: black;
     font-family: "Roboto", sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #7a2525;
 }
 
 .main__container-contact img {
@@ -75,6 +80,9 @@ input[type="submit"] {
     font-size: 4vh;
 }
 
+.lista-cont i:hover {
+    color: #ff4d42;
+}
 
 @media (min-width: 480px) {
 

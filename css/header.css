@@ -80,17 +80,24 @@ display: none;
 }
 
 .header__conteiner-nav {
-margin-top: 3vh;
+
+margin-top: 3vh;
 }
 header img {
     max-width: 3vw;
 }
 
 .header__conteiner-nav ul {
-    display: flex;
+    
+display: flex;
 }
 .header__conteiner-nav li {
-font-size: 2vh;
+
+font-size: 2vh;
+}
+
+nav ul a:active {
+    color: #dd443c;
 }
 
 }

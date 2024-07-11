@@ -38,13 +38,21 @@ padding: 2vh;
 }
 
 .text__sobremi a {
-display: inline-block;
-background-color: #6f302d;
-padding: 1vh;
-border-radius: 6px;
-box-shadow: 7px 5px 15px 6px rgb(34 32 34 / 10%);
+
+display: inline-block;
+
+background-color: #6f302d;
+
+padding: 1vh;
+
+border-radius: 6px;
+
+box-shadow: 7px 5px 15px 6px rgb(34 32 34 / 10%);
 }
 
+.text__sobremi a:hover{
+    background-color: #dd443c;
+}
 .conteiner_skills {
 
 position: absolute;
@@ -103,6 +111,10 @@ font-weight: 100;
 font-size: 2vh;
 }
 
+
+.iconos-leng:hover {
+    color: #dd443c;
+}
 .iconos-leng i {
 
     font-size: 4vh;
