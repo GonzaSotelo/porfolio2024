@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let index = 0;
     let currentText = "";
     let letter = "";
-    const speed = 150;  // typing speed in milliseconds
-    const delayBetweenTexts = 2000;  // delay between texts in milliseconds
+    const speed = 120;  // typing speed in milliseconds
+    const delayBetweenTexts = 1500;  // delay between texts in milliseconds
 
     function type() {
         if (count === texts.length) {
