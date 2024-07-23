@@ -17,7 +17,7 @@ form {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin-top: 0vh;
+    margin: 1vh;
 }
 
 .field {
@@ -61,15 +61,16 @@ input[type="submit"]:hover {
 }
 
 .main__container-contact img {
-    width: 67vw;
-    margin: -5% 0% 0% -3%;
+    width: 60vw;
+    margin: -4% 0% 0% 12%;
 }
 
 .container-logo-con {
     width: 100%;
-    height: 40%;
+    height: 35%;
     /* background-color: #28263487; */
     /* display: none; */
+    margin: 1vh;
 }
 .lista-cont {
     display: flex;
@@ -87,7 +88,7 @@ input[type="submit"]:hover {
 
 #message {height: 14vh;}
 
-.contenedor-formu {background-color: rgb(40 38 52 / 82%);padding: 3vh;height: 71vh;}
+.contenedor-formu {background-color: rgb(40 38 52 / 82%);height: 74vh;width: 90vw;}
 
 @media (min-width: 480px) {
 
