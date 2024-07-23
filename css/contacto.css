@@ -61,8 +61,7 @@ input[type="submit"]:hover {
 }
 
 .main__container-contact img {
-    width: 60vw;
-    margin: -4% 0% 0% 12%;
+    width: 33vw;
 }
 
 .container-logo-con {
@@ -70,12 +69,17 @@ input[type="submit"]:hover {
     height: 35%;
     /* background-color: #28263487; */
     /* display: none; */
-    margin: 1vh;
+    /* margin: 1vh; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .lista-cont {
     display: flex;
     justify-content: space-evenly;
-    margin-top: -4vh;
+    /* margin-top: -4vh; */
+    width: 100%;
 }
 
 .lista-cont i {
@@ -88,7 +92,7 @@ input[type="submit"]:hover {
 
 #message {height: 14vh;}
 
-.contenedor-formu {background-color: rgb(40 38 52 / 82%);height: 74vh;width: 90vw;}
+.contenedor-formu {background-color: rgb(40 38 52 / 82%);height: 74vh;width: 90vw;/* display: flex; */}
 
 @media (min-width: 480px) {
 
@@ -113,8 +117,8 @@ input[type="submit"]:hover {
     }
     
     .main__container-contact img {
-    width: 38vh;
-    margin-left: 11vh;
+    width: 15vh;
+    /* margin-left: 21vh; */
     }
     
     .container-logo-con {
@@ -139,16 +143,22 @@ input[type="submit"]:hover {
     form {
    height: 61vh;
    justify-content: space-evenly;
-   width: 40vw;
+   margin: 5% auto;
    }
     
     .field {
    
     }
+    .contenedor-formu {
+        display: flex;
+        max-width: 80%;
+    }
     
     .field label {
        font-size: 3vh;
     }
+
+    
     
     .field input {
    height: 4vh;
@@ -161,13 +171,14 @@ input[type="submit"]:hover {
    }
     
     .main__container-contact img {
-    width: 46vh;
-    margin: 3vw 6vh;
+    width: 22vh;
+    /* margin: 3vw 6vh; */
     }
     
     .container-logo-con {
-    height: 61vh;
-    width: 40vw;
+    height: 36vh;
+    width: 49vw;
+    margin: auto;
     }
     .lista-cont {
     
@@ -211,20 +222,20 @@ input[type="submit"]:hover {
    }
     
     .main__container-contact img {
-    width: 45vh;
-    margin: 2vw 18vh;
+    width: 31vh;
+    /* margin: 2vw 9vh; */
     }
     
     .container-logo-con {
-    height: 61vh;
+    height: 60vh;
     width: 40vw;
+    /* margin: 4% auto; */
     }
     .lista-cont {
-    
     }
     
     .lista-cont i {
-     
+     font-size: 5vh;
     }
 
 
